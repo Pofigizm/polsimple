@@ -1,0 +1,715 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"calc-",
+				"calc-main"
+			],
+			[
+				"t",
+				"ng-template	AngularJS"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"fo",
+				"forin	forin"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"c",
+				"c	console"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"b",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"new",
+				"vm.runInNewContext();"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"Max",
+				"Max"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"va",
+				"value	AngularJS"
+			],
+			[
+				"ng-",
+				"ng-include	AngularJS"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"curr",
+				"currOrder"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"field",
+				"fieldGroup"
+			],
+			[
+				"cle",
+				"clearInterval();"
+			],
+			[
+				"set",
+				"setTimeout(function, milliseconds);"
+			],
+			[
+				"String",
+				"querystring.stringify(obj, sep, eq, name);"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"mySort",
+				"mySort"
+			],
+			[
+				"btn",
+				"btn"
+			],
+			[
+				"equal",
+				"assert.notEqual(actual, expected, message);"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"ic",
+				"ng-include"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 2470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/elements/designer.html",
+			"settings":
+			{
+				"buffer_size": 12335,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: forin"
+			],
+			[
+				"sni",
+				"Snippet: Function"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Snippet: Function"
+			]
+		],
+		"width": 569.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Dev/danke",
+		"/C/Dev/danke/app",
+		"/C/Dev/danke/app/elements",
+		"/C/Dev/danke/app/post-service"
+	],
+	"file_history":
+	[
+		"/C/Dev/danke/app/elements/index.html",
+		"/C/Dev/danke/app/elements/post-list.html",
+		"/C/Dev/danke/app/elements/post-card.html",
+		"/C/Dev/danke/app/post-service/post-service.html",
+		"/C/Dev/danke/app/api/posts.json",
+		"/C/Dev/danke/designer.html",
+		"/C/Users/dis/AppData/Local/Temp/7zE5D3.tmp/designer.html",
+		"/C/Dev/printcalc-tiso/calendarclass.js",
+		"/C/Dev/ancestry.js",
+		"/C/Dev/swarp.js",
+		"/C/Dev/orderclass.js",
+		"/C/Users/dis/Desktop/git.txt",
+		"/C/Users/dis/Desktop/JS NOTES.txt",
+		"/C/Dev/print-calc/.git/modules/dist/config",
+		"/C/Dev/print-calc/.gitignore",
+		"/C/Dev/gh-pages-deploy.md.txt",
+		"/C/Dev/print-calc/app/bower_components/paper-dropdown-menu/paper-dropdown-menu.html",
+		"/C/Dev/print-calc/app/bower_components/paper-input/paper-input.html",
+		"/C/Users/dis/AppData/Local/Temp/Temp1_showcase-font-family.zip/fonts_in_use.txt",
+		"/C/Dev/print-calc/app/scripts/orderclass.js",
+		"/C/Dev/print-calc/app/scripts/app.js",
+		"/C/Dev/print-calc/app/bower_components/core-dropdown/core-dropdown.html",
+		"/C/Dev/print-calc/app/bower_components/paper-dropdown-menu/paper-dropdown-menu.css",
+		"/C/Dev/print-calc/app/elements/calc-part.html",
+		"/C/Dev/print-calc/app/elements/calc-param.css",
+		"/C/Dev/print-calc/app/elements/calc-part.css",
+		"/C/Dev/print-calc/bower.json",
+		"/C/Dev/test.js",
+		"/C/Dev/prepresstool/app/index.jade",
+		"/C/Dev/prepresstool/Gruntfile.js",
+		"/C/Dev/print-calc/Gruntfile.js",
+		"/C/Dev/print-calc/app/elements/calc-ask/calc-ask-base.html",
+		"/C/Dev/print-calc/app/elements/calc-ask/calc-ask-selector.html",
+		"/C/Dev/print-calc/app/elements/calc-ask/calc-ask-picker.html",
+		"/C/Dev/print-calc/app/elements/calc-format/calc-format.html",
+		"/C/Dev/print-calc/app/elements/calc-param/calc-param.html",
+		"/C/Dev/print-calc/app/elements/calc-part/calc-part.html",
+		"/C/Dev/print-calc/app/elements/calc-broshure/calc-broshure.html",
+		"/C/Dev/print-calc/app/elements/calc-main/calc-main.html",
+		"/C/Dev/print-calc/dist/index.html",
+		"/C/Dev/print-calc/dist/scripts/app.js",
+		"/C/Dev/print-calc/dist/scripts/vendor.js",
+		"/C/Dev/print-calc/dist/elements/elements.vulcanized.html",
+		"/C/Dev/print-calc/dist/elements/calc-format/calc-format.html",
+		"/C/Dev/print-calc/dist/elements/calc-format/calc-format.css",
+		"/C/Dev/print-calc/.gitattributes",
+		"/C/Dev/extobj/README.md",
+		"/C/Dev/print-calc/app/elements/calc-main/calc-main.css",
+		"/C/Dev/print-calc/app/scripts/pofigizm.js",
+		"/C/Dev/print-calc/app/bower_components/extobj/dist/extobj.js",
+		"/C/Dev/print-calc/app/scripts/test.js",
+		"/C/Dev/print-calc/app/scripts/pofigizm-test.js",
+		"/C/Dev/print-calc/app/scripts/order.js",
+		"/C/Dev/print-calc/app/styles/main.css",
+		"/C/Dev/print-calc/app/elements/calc-ask/calc-ask-base.css",
+		"/C/Dev/print-calc/app/elements/calc-ask/calc-ask-selector.css",
+		"/C/Dev/print-calc/app/elements/calc-ask/calc-ask-picker.css",
+		"/C/Dev/print-calc/app/elements/calc-broshure/calc-broshure.css",
+		"/C/Dev/print-calc/app/elements/calc-part/calc-part.css",
+		"/C/Dev/print-calc/app/elements/calc-param/calc-param.css",
+		"/C/Dev/print-calc/app/index.html",
+		"/C/Dev/angexpjade/lib/controllers/orders.js",
+		"/C/Dev/angexpjade/app/scripts/orders.js",
+		"/C/Dev/print-calc/app/elements/elements.html",
+		"/C/Dev/print-calc/app/elements/calc-broshure/calc-brosh.html",
+		"/C/Dev/print-calc/app/js-bin-strict.html",
+		"/C/Dev/print-calc/app/js-bin-min3.html",
+		"/C/Users/dis/YandexDisk/Скриншоты/js-bin-min3.html",
+		"/C/Dev/angexpjade/app/bower_components/Sortable/Sortable.js",
+		"/C/Dev/icons.htm",
+		"/C/Dev/загруженное.htm",
+		"/C/Dev/print-calc/app/bower_components/paper-dropdown/paper-dropdown.html",
+		"/C/Dev/print-calc/app/bower_components/core-popup-menu/core-popup-menu.html",
+		"/C/Dev/print-calc/app/elements/calc-format.backup/calc-format.css",
+		"/C/Dev/print-calc/app/elements/calc-ask-selector.css",
+		"/C/Dev/print-calc/app/elements/calc-ask-selector.html",
+		"/C/Dev/print-calc/app/elements/calc-format.backup/calc-format.html",
+		"/C/Dev/print-calc/app/elements/calc-ask-picker.css",
+		"/C/Dev/print-calc/app/elements/calc-format/calc-format.css",
+		"/C/Dev/print-calc/app/elements/calc-ask-base.html",
+		"/C/Dev/print-calc/app/bower_components/paper-slider/paper-slider.html",
+		"/C/Users/dis/Desktop/splash.svg",
+		"/C/Dev/print-calc/app/elements/calc-paper-slider.html",
+		"/C/Dev/print-calc/app/bower_components/paper-dropdown/paper-dropdown.css",
+		"/C/Dev/print-calc/app/bower_components/core-menu/core-menu.html",
+		"/C/Dev/print-calc/app/bower_components/core-popup-menu/core-popup-menu.css",
+		"/C/Program Files (x86)/Git/doc/git/html/git-config.html",
+		"/C/Dev/learnpolymer/app/elements/post-service/post-service.html",
+		"/C/Dev/learnpolymer/app/styles/main.css",
+		"/C/Dev/learnpolymer/app/elements/post-list/post-list.html",
+		"/C/Dev/learnpolymer/polymer-tutorial-master/starter/post-list.html",
+		"/C/Dev/learnpolymer/polymer-tutorial-master/starter/index.html",
+		"/C/Dev/learnpolymer/polymer-tutorial-master.zip",
+		"/C/Dev/learnpolymer/polymer-tutorial-master/README.md",
+		"/C/Dev/learnpolymer/polymer-tutorial-master/step-1/index.html",
+		"/C/Users/dis/Google Диск/_KeybordShortcat/Winkeybord.txt",
+		"/C/Dev/angexpjade/test.js",
+		"/C/Dev/polymer/app/elements/elements.html",
+		"/C/Dev/polymer/app/elements/yo-greeting/yo-greeting.html",
+		"/C/Dev/polymer/app/bower_components/core-menu/demo.html",
+		"/C/Dev/angexpjade/lib/models/orderclass.js",
+		"/C/Dev/polymer/app/elements/yo-list/yo-list.html",
+		"/C/Dev/polymer/app/index.html",
+		"/C/Dev/polymer/demo2.html",
+		"/C/Dev/polymer/Gruntfile.js",
+		"/C/Dev/Tests/longpol/index.html",
+		"/C/Dev/polymer/app/scripts/app.js",
+		"/C/Dev/angexpjade/app/views/partials/orders.jade",
+		"/C/Dev/angexpjade/app/views/partials/orders-parts.jade",
+		"/C/Dev/polymer/package.json",
+		"/C/Dev/polymer/app/styles/main.scss",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/forin.sublime-snippet",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Dev/Tests/server/server.js",
+		"/C/Dev/simple/server.js",
+		"/C/Dev/angexpjade/formats.js",
+		"/C/Dev/angexpjade/filename.json",
+		"/C/Users/dis/Downloads/расчет_3107 - Форматы.csv",
+		"/C/Users/dis/Desktop/расчет_1807_form.csv",
+		"/C/Dev/angexpjade/app/views/partials/orders-parts-backup.jade",
+		"/C/Dev/angexpjade/app/views/partials/orders-backup.jade",
+		"/C/Dev/TisoOrderClass.js",
+		"/C/Dev/angexpjade/lib/config/calculation.json",
+		"/C/Dev/prepresstool/app/scripts/controllers/main.js",
+		"/C/Dev/prepresstool/app/views/main.jade"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"C:\\Dev\\angexpjade\\app\\scripts",
+			"C:\\Dev\\angularfullstack\\app\\scripts",
+			"*.js -C:\\Dev\\angexpjade\\app\\bower_components*",
+			"*.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"core-input",
+			"orderclass.js",
+			"assignDeep",
+			"assign",
+			"pofigizm",
+			"assign",
+			"self.calc",
+			"calcorder",
+			"order",
+			"Pofigizm",
+			"pendingException",
+			"keysArray",
+			"nextSource",
+			"nextKey",
+			"Pofigizm",
+			"this",
+			"_new",
+			"_new_",
+			"pagesOnSheet",
+			"function() {",
+			"value-fired",
+			";\n",
+			"catalog",
+			"id=\"my-el\"",
+			"printunits",
+			"self.order[0]",
+			"$scope",
+			"settings",
+			"wiheor",
+			"dev.bowdenweb.com/a/i/cons/icomoon",
+			".svg\">",
+			".svg</a>",
+			"<img src=\"/diridxicons/image2.gif\" alt=\"[IMG]\">",
+			"input",
+			"scaleble",
+			"ask=",
+			"ask",
+			"input",
+			"selected",
+			"scaleble",
+			"selected",
+			"this.ask",
+			"ask=",
+			"this.ask",
+			"part",
+			"block",
+			"selected",
+			"picker",
+			"topeka",
+			"quiz",
+			"<polymer-element name=\"calc-part\"  attributes=\"\">",
+			"#select-format",
+			"paper-input",
+			"paper",
+			"oldVidth",
+			"newValue",
+			"Polymer",
+			"components",
+			"--",
+			" - ",
+			">",
+			"<",
+			"getSelection",
+			" Object.observe(t, function(changes){\n    changes.forEach(function(change) {\n        if (change.name === 'setage') {\n          t.setname += change.object[change.name];\n        }\n        console.log(change.type, change.name, change.oldValue, change.object[change.name]);\n    });\n\n  });\n\n  document.addEventListener('polymer-ready', function() {\n    // Perform some behaviour\n    console.log('Polymer is ready to rock!');\n  });\n\n// wrap document so it plays nice with other libraries\n// http://www.polymer-project.org/platform/shadow-dom.html#wrappers\n})(wrap(document));\n",
+			"\n\n <polymer> sddxx \n dgdv\n xcvxcv\n xcvxcv\n\n\n\n",
+			"setn",
+			"tes",
+			"setn",
+			" fun",
+			"mylength",
+			"setage",
+			"start",
+			"printCont",
+			"parts",
+			"paper",
+			"_new_",
+			"un",
+			"dis.",
+			"argument",
+			"paperDescription",
+			"_newChild",
+			"s_height",
+			"s_width",
+			"p_height",
+			"p_width",
+			"getPrintUnits",
+			"квадрат",
+			"slice",
+			"noop",
+			"part",
+			"defineProperty",
+			"this",
+			"квадрат",
+			"ланшафт",
+			"'A",
+			"портрет",
+			" ,",
+			"+,",
+			",",
+			"GTO",
+			"GTO+",
+			"MO",
+			"extention",
+			"angular.forEach",
+			"foreach",
+			"concat",
+			"htmlmin",
+			"cssmin",
+			"grunt.registerTask",
+			"htmlmin",
+			"watch",
+			"useminPrepare",
+			"jshint:all",
+			"build",
+			"5px",
+			"grunt.registerTask",
+			"concurrent",
+			"htmlmin",
+			"useminPrepare",
+			"txt",
+			"splitted",
+			"sigjoin",
+			"sigtosheet",
+			"pressRun",
+			"sections",
+			"signatures",
+			"mustPages",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"function( ){",
+			"//",
+			" -- ",
+			">>",
+			"<<",
+			"forEach"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1655,
+								1655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/elements/designer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8487,
+								8487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5355.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.552095808383,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 227.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "danke.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Dev\\learnpolymer\\learnpolymer.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

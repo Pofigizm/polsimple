@@ -1,0 +1,398 @@
+<link rel="import" href="../notification-elements/notification-alert.html">
+<link rel="import" href="../core-ajax/core-ajax.html">
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../paper-tabs/paper-tabs.html">
+<link rel="import" href="../paper-tabs/paper-tab.html">
+<link rel="import" href="../core-icons/core-icons.html">
+<link rel="import" href="../paper-item/paper-item.html">
+<link rel="import" href="../topeka-elements/avatars.html">
+<link rel="import" href="../core-icon/core-icon.html">
+<link rel="import" href="../core-icons/av-icons.html">
+<link rel="import" href="../paper-fab/paper-fab.html">
+<link rel="import" href="../core-drawer-panel/core-drawer-panel.html">
+<link rel="import" href="../topeka-elements/category-images.html">
+<link rel="import" href="../core-menu/core-submenu.html">
+<link rel="import" href="../core-tooltip/core-tooltip.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(192, 192, 192);
+      }
+      #notification_alert {
+        left: 30px;
+        top: -10px;
+        position: absolute;
+      }
+      #core_ajax {
+        left: 70px;
+        top: -10px;
+        position: absolute;
+      }
+      #core_ajax1 {
+        left: 410px;
+        top: 270px;
+        position: absolute;
+      }
+      #core_toolbar {
+        color: rgb(255, 255, 255);
+        left: 270px;
+        top: 0px;
+        position: absolute;
+        width: 360px;
+        height: 60px;
+        background-color: rgb(255, 0, 0);
+      }
+      #section2 {
+        height: 580px;
+        width: 360px;
+        left: 270px;
+        top: 60px;
+        position: absolute;
+        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230)) rgb(192, 192, 192);
+      }
+      #paper_fab {
+        left: 290px;
+        top: 500px;
+        position: absolute;
+        background-color: rgb(255, 0, 0);
+      }
+      #section3 {
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 180px;
+        top: 150px;
+        position: absolute;
+        background-color: rgb(250, 250, 250);
+      }
+      #paper_tabs {
+        width: 360px;
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 2px;
+        left: 0px;
+        top: -4px;
+        position: absolute;
+        background-color: rgb(255, 0, 0);
+      }
+      #core_icon1 {
+        height: 256px;
+        width: 256px;
+        left: 1650px;
+        top: 610px;
+      }
+      #notification_alert1 {
+        left: 1250px;
+        top: 500px;
+        position: absolute;
+      }
+      #section1 {
+        height: 100%;
+        box-sizing: border-box;
+        left: 740px;
+        top: 280px;
+        position: absolute;
+        background-color: rgb(221, 221, 221);
+      }
+      #core_card {
+        position: absolute;
+        width: 328px;
+        height: 240px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 16px;
+        top: 60px;
+        background-color: rgb(255, 255, 255);
+      }
+      #core_card1 {
+        position: absolute;
+        width: 328px;
+        height: 240px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 16px;
+        top: 320px;
+        background-color: rgb(255, 255, 255);
+      }
+      #div1 {
+        left: 690px;
+        top: 460px;
+        position: absolute;
+      }
+      #core_menu {
+        font-size: 16px;
+        left: 12px;
+        top: 122px;
+        position: absolute;
+      }
+      #core_drawer_panel {
+        position: absolute;
+        top: -10px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 270px;
+        height: 650px;
+      }
+      #section {
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 10px;
+        top: 10px;
+        position: absolute;
+        width: 260px;
+        height: 640px;
+        background-color: rgb(255, 255, 255);
+      }
+      #section4 {
+        box-sizing: border-box;
+        width: 420px;
+        height: 582px;
+        left: -70px;
+        top: -40px;
+        position: absolute;
+      }
+      #section5 {
+        background-color: rgb(255, 255, 141);
+      }
+      #div2 {
+        box-sizing: border-box;
+        position: relative;
+        height: 80px;
+        padding: 24px;
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        background-color: rgb(255, 235, 59);
+      }
+      #div4 {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        bottom: 50px;
+        right: 24px;
+      }
+      #paper_fab1 {
+        background-color: rgb(255, 64, 129);
+      }
+      #section6 {
+        width: 420px;
+        height: 630px;
+        border: 5px solid rgb(204, 204, 204);
+        left: -70px;
+        top: -40px;
+        position: absolute;
+      }
+      #paper_tabs1 {
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 2px;
+        background-color: rgb(0, 188, 212);
+      }
+      #core_toolbar1 {
+        color: rgb(255, 255, 255);
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        width: 260px;
+        height: 180px;
+        background-color: rgb(255, 0, 0);
+      }
+      #core_icon4 {
+        height: 64px;
+        width: 64px;
+        margin: 0px 8px;
+        border-radius: 50%;
+        overflow: hidden;
+        left: 38px;
+        top: 30px;
+        position: absolute;
+      }
+      #core_item5 {
+        left: 1710px;
+        top: 690px;
+      }
+      #speech_mic {
+        left: 1800px;
+        top: 700px;
+      }
+      #core_tooltip {
+        left: 38px;
+        top: 140px;
+        position: absolute;
+      }
+      #paper_item2 {
+        left: 16px;
+        top: 130px;
+        position: absolute;
+      }
+      #topeka_categories {
+        width: 300px;
+        height: 300px;
+        left: 1760px;
+        top: 690px;
+      }
+      #topeka_category {
+        width: 300px;
+        height: 300px;
+        left: 1730px;
+        top: 710px;
+      }
+      #topeka_quiz_view {
+        width: 300px;
+        height: 300px;
+        left: 1740px;
+        top: 820px;
+      }
+      #topeka_app {
+        width: 300px;
+        height: 300px;
+        min-height: 450px;
+        left: 1710px;
+        top: 800px;
+      }
+      #paper_item4 {
+        left: 60px;
+        top: 190px;
+        position: absolute;
+      }
+      #paper_item5 {
+        left: 60px;
+        top: 230px;
+        position: absolute;
+      }
+      #paper_item6 {
+        left: 60px;
+        top: 270px;
+        position: absolute;
+      }
+      #core_icon {
+        left: 40px;
+        top: 200px;
+        position: absolute;
+      }
+      #core_icon2 {
+        left: 40px;
+        top: 240px;
+        position: absolute;
+      }
+      #core_icon3 {
+        left: 40px;
+        top: 280px;
+        position: absolute;
+      }
+      #core_icon5 {
+        left: 1700px;
+        top: 750px;
+      }
+      #core_icon6 {
+        height: 64px;
+        width: 64px;
+        margin: 0px 8px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      #core_icon7 {
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      #paper_item3 {
+        left: 16px;
+        top: 100px;
+        position: absolute;
+      }
+      #core_icon_button3 {
+        left: 308px;
+        top: 10px;
+        position: absolute;
+      }
+    </style>
+    <notification-alert message="Hi there!" icon="icon.png" name="notification" id="notification_alert"></notification-alert>
+    <core-ajax handleas="json" method="GET" id="core_ajax" hidden></core-ajax>
+    <core-ajax handleas="json" method="GET" id="core_ajax1" hidden></core-ajax>
+    <section id="section3" drawer></section>
+    <notification-alert message="Hi there!" icon="icon.png" name="notification" id="notification_alert1"></notification-alert>
+    <section id="section1" main></section>
+    <div id="div1" vertical layout reverse>
+			</div>
+    <core-toolbar id="core_toolbar">
+      <core-icon-button active icon="menu" id="core_icon_button" class="selected"></core-icon-button>
+      <div id="div">Yarnee</div>
+      <core-icon-button icon="more-vert" id="core_icon_button3"></core-icon-button>
+    </core-toolbar>
+    <section id="section2">
+      <paper-tabs selected="1" selectedindex="1" id="paper_tabs" horizontal center layout>
+        <paper-tab id="paper_tab" inline flex center-center horizontal layout>Following</paper-tab>
+        <paper-tab id="paper_tab1" inline flex center-center horizontal layout active>Public</paper-tab>
+        <paper-tab id="paper_tab2" inline flex center-center horizontal layout>Recently Read</paper-tab>
+      </paper-tabs>
+      <core-card id="core_card" layout vertical>
+        <paper-item id="paper_item1" icon="settings" label="Item">Andy Barratt</paper-item>
+        <core-selector selected="0" selectedindex="0" id="core_selector" flex layout horizontal>
+          <core-selector selected="1" selectedindex="1" id="core_selector1" flex layout horizontal active>
+            <core-icon icon="avatars:avatar-1" id="core_icon5" designmeta="topeka-avatar"></core-icon>
+            <core-icon icon="avatars:avatar-3" id="core_icon7" designmeta="topeka-avatar" active></core-icon>
+          </core-selector>
+        </core-selector>
+      </core-card>
+      <core-card id="core_card1" layout vertical>
+        <paper-item id="paper_item" icon="settings" label="Item">Maik Roder</paper-item>
+        <core-icon icon="avatars:avatar-2" id="core_icon6" designmeta="topeka-avatar"></core-icon>
+      </core-card>
+      <paper-fab icon="add" id="paper_fab"></paper-fab>
+    </section>
+    <core-drawer-panel transition selected="drawer" id="core_drawer_panel" touch-action>
+      <section id="section4" layout vertical>
+        <section id="section5" class="top" flex layout horizontal center center-justified hero hero-id="top">
+          <core-icon icon="category-images:knowledge" id="core_icon1" cross-fade-delayed designmeta="topeka-image"></core-icon>
+        </section>
+        <div id="div2" class="bottom" hero hero-id="bottom">
+          <span id="span">General Knowledge</span>
+        </div>
+        <div id="div3" hero class="dummy"></div>
+        <div id="div4" class="fab fab-0">
+          <paper-fab icon="av:play-arrow" id="paper_fab1" cross-fade-delayed></paper-fab>
+        </div>
+      </section>
+      <section id="section6" layout vertical>
+        <paper-tabs noink nobar selected="0" selectedindex="0" id="paper_tabs1" horizontal center layout>
+          <paper-tab id="paper_tab3" inline flex center-center horizontal layout active>ITEM ONE</paper-tab>
+          <paper-tab id="paper_tab4" inline flex center-center horizontal layout>ITEM TWO</paper-tab>
+        </paper-tabs>
+        <section id="section7" flex relative>
+      </section>
+      </section>
+      <section id="section" drawer>
+        <core-menu selected="0" id="core_menu">
+          </core-menu>
+        <core-toolbar id="core_toolbar1">
+          <core-tooltip label="I'm a tooltip" id="core_tooltip">
+      </core-tooltip>
+          <paper-item id="paper_item2" icon="settings" label="Item">name@gmail.com</paper-item>
+          <paper-item id="paper_item3" icon="settings" label="Item">Lelen Huang</paper-item>
+          <core-icon icon="avatars:avatar-2" id="core_icon4" designmeta="topeka-avatar" active></core-icon>
+        </core-toolbar>
+        <paper-item id="paper_item4" icon="settings" label="Item">Discover</paper-item>
+        <paper-item id="paper_item5" icon="settings" label="Item">Profile</paper-item>
+        <paper-item id="paper_item6" icon="settings" label="Item">People</paper-item>
+        <core-icon icon="home" id="core_icon"></core-icon>
+        <core-icon icon="star" id="core_icon2"></core-icon>
+        <core-icon icon="add" id="core_icon3"></core-icon>
+      </section>
+    </core-drawer-panel>
+  </template>
+
+  <script>
+
+    Polymer({
+      home: 'search'
+    });
+
+  </script>
+
+</polymer-element>

@@ -171,29 +171,29 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/index.html",
-			"settings":
-			{
-				"buffer_size": 2470,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/elements/designer.html",
-			"settings":
-			{
-				"buffer_size": 12335,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 490.0,
+		"height": 157.0,
 		"selected_items":
 		[
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"toggle",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"enabl",
+				"SublimeLinter: Disable Linting"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -219,13 +219,15 @@
 				"Snippet: Function"
 			]
 		],
-		"width": 569.0
+		"width": 543.0
 	},
 	"console":
 	{
-		"height": 146.0,
+		"height": 286.0,
 		"history":
 		[
+			"jscs",
+			"node -v"
 		]
 	},
 	"distraction_free":
@@ -241,11 +243,24 @@
 	[
 		"/C/Dev/danke",
 		"/C/Dev/danke/app",
-		"/C/Dev/danke/app/elements",
-		"/C/Dev/danke/app/post-service"
+		"/C/Dev/danke/app/scripts",
+		"/C/Dev/danke/app/styles"
 	],
 	"file_history":
 	[
+		"/C/Dev/danke/app/index.html",
+		"/C/Dev/danke/app/scripts/app.js",
+		"/C/Dev/.jscsrc",
+		"/C/Users/dis/Google Диск/_DEV/test/yandex.js",
+		"/C/Dev/danke/Gruntfile.js",
+		"/C/Dev/danke/.jscsrc",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/dis/Desktop/subl-kb.txt",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Dev/danke/app/images/avatar-01.svg",
+		"/C/Dev/danke/app/elements/posts.json",
+		"/C/Dev/danke/app/elements/designer.html",
 		"/C/Dev/danke/app/elements/index.html",
 		"/C/Dev/danke/app/elements/post-list.html",
 		"/C/Dev/danke/app/elements/post-card.html",
@@ -360,20 +375,7 @@
 		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/forin.sublime-snippet",
 		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
-		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Dev/Tests/server/server.js",
-		"/C/Dev/simple/server.js",
-		"/C/Dev/angexpjade/formats.js",
-		"/C/Dev/angexpjade/filename.json",
-		"/C/Users/dis/Downloads/расчет_3107 - Форматы.csv",
-		"/C/Users/dis/Desktop/расчет_1807_form.csv",
-		"/C/Dev/angexpjade/app/views/partials/orders-parts-backup.jade",
-		"/C/Dev/angexpjade/app/views/partials/orders-backup.jade",
-		"/C/Dev/TisoOrderClass.js",
-		"/C/Dev/angexpjade/lib/config/calculation.json",
-		"/C/Dev/prepresstool/app/scripts/controllers/main.js",
-		"/C/Dev/prepresstool/app/views/main.jade"
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -396,6 +398,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"E5E5E5",
+			"../images",
 			"core-input",
 			"orderclass.js",
 			"assignDeep",
@@ -521,9 +525,7 @@
 			"sigtosheet",
 			"pressRun",
 			"sections",
-			"signatures",
-			"mustPages",
-			"\""
+			"signatures"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -547,75 +549,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1655,
-								1655
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "app/elements/designer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8487,
-								8487
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5355.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -636,18 +571,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.552095808383,
 			1.0
 		],
 		"rows":

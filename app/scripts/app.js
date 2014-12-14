@@ -1,4 +1,4 @@
-( function( document ){
+(function(document) {
   'use strict';
 
   var tabs = document.querySelector('paper-tabs');
@@ -9,7 +9,7 @@
   });
 
   document.addEventListener('polymer-ready', function() {
-    list.show = tabs.selected = "public";
+    list.show = tabs.selected = 'public';
   });
-    
-} )( wrap( document ) );
+
+})(wrap(document));

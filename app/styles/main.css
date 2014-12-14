@@ -11,7 +11,7 @@
       -webkit-overflow-scrolling: touch; 
     }
     core-toolbar {
-      background: #ff0000;
+      background: #00AA00;
       color: white;
     }
 
@@ -39,16 +39,16 @@
     }
 
     #drawer {
-      background-color: rgb(255, 255, 255);
+      background-color: #FFFFFF;
     }
     #core_toolbar1 {
-      color: rgb(255, 255, 255);
+      color: #FFFFFF;
       left: 0px;
       top: 0px;
       position: absolute;
       width: 260px;
       height: 180px;
-      background-color: rgb(255, 0, 0);
+      background-color: #00AA00;
     }
 
     #paper_item2 {

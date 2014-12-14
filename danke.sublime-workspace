@@ -248,6 +248,7 @@
 	],
 	"file_history":
 	[
+		"/C/Dev/danke/app/styles/main.css",
 		"/C/Dev/danke/app/index.html",
 		"/C/Dev/danke/app/scripts/app.js",
 		"/C/Dev/.jscsrc",
@@ -374,8 +375,7 @@
 		"/C/Dev/polymer/app/styles/main.scss",
 		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/forin.sublime-snippet",
 		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
-		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+		"/C/Users/dis/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings"
 	],
 	"find":
 	{

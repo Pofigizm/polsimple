@@ -1,5 +1,4 @@
 ## polsimple
-=========
 
 Sckech using polymer 0.5.1 new features 
 
